@@ -623,13 +623,14 @@ section:not(.hero) {
   border-radius: var(--radius);
   transition: all 0.25s ease;
   text-align: center;
+  align-self: center;
 }
 
 .services-grid .service-card img {
   height: 30px;
   width: 30px;
-  justify-self: center;
-  margin-bottom: 1rem;
+  display: block;
+  margin: 0 auto 1rem;
 }
 
 .service-card:hover {
