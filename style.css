@@ -735,6 +735,12 @@ section:not(.hero) {
   .services-grid {
     grid-template-columns: 1fr 1fr;
   }
+  .services-grid .service-card img {
+    height: 30px;
+    width: 30px;
+    justify-self: center;
+    margin-bottom: 1rem;
+  }
 }
 
 @media (max-width: 640px) {
