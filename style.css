@@ -293,7 +293,7 @@ section:not(.hero) {
   display: inline-block;
   color: var(--blue);
 }
-.hero-name-accent::after {
+/* .hero-name-accent::after {
   content: "";
   position: absolute;
   bottom: 4px;
@@ -303,7 +303,7 @@ section:not(.hero) {
   background: var(--blue);
   border-radius: 2px;
   animation: underlineDraw 0.8s ease forwards 0.5s;
-}
+} */
 @keyframes underlineDraw {
   to {
     width: 100%;
