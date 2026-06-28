@@ -611,6 +611,7 @@ section:not(.hero) {
 /* ===========================
    SERVICES
 =========================== */
+
 .services-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -753,6 +754,12 @@ section:not(.hero) {
   }
   .services-grid {
     grid-template-columns: 1fr;
+  }
+  .services-grid .service-card img {
+    height: 30px;
+    width: 30px;
+    align-self: center;
+    margin-bottom: 1rem;
   }
   .contact-inner {
     padding: 0 1rem;
